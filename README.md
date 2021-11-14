@@ -10,3 +10,10 @@ and responsive for all standard sizes.
 4) 425px
 5) 375px
 6) 325px
+
+## Images
+![plot](assets\luxury-design-laptop.JPG)
+
+![plot](assets\luxury-design-tablet.JPG)
+
+![plot](assets\luxury-design-mobile.JPG)
