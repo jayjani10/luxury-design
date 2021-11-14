@@ -1,0 +1,135 @@
+body {
+    background: url('./assets/BG.jpg');
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#titleBlock {
+    color: #fff;
+    display: grid;
+    justify-content: center;
+    text-transform: uppercase;
+}
+#design {
+color: #FFC857;
+margin-left: 100px !important;
+position: relative;
+}
+h1 {
+    margin: 0;
+    font-size: 50px;
+}
+
+#titleBlock > div {
+    display: flex;
+    align-items: baseline;
+}
+#robo1 {
+    transform: rotateY(180deg);
+    width: 250px;
+    margin-top: -90px !important;
+    margin-left: -60px !important;
+}
+
+#introBlock {
+    border: 2px solid gray;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 300px;
+    margin-top: 300px;
+    padding: 0 50px;
+    align-items: center;
+    font-family: monospace;
+}
+
+#introBlock > div {
+    text-transform: uppercase !important;
+    color: #FFC857;
+    font-size: 20px;
+    position: relative;
+}
+
+#introBlock > div > p {
+    position: relative;
+}
+
+#introBlock > #robo2 {
+    position: relative;
+    margin-top: -100px !important;
+    top: 30px;
+}
+
+@media (max-width: 1024px) { 
+    #introBlock {
+        margin: 0 50px !important;
+        margin-top: 400px !important;
+        left: 0;
+        right: 0;
+    }
+ }
+@media (max-width: 768px) { 
+    #introBlock {
+        margin: 0 50px !important;
+        margin-top: 400px !important;
+        left: 0;
+        right: 0;
+    }
+ }
+@media (max-width: 425px) { 
+    #introBlock {
+        margin: 0 50px !important;
+        margin-top: 300px !important;
+        left: 0;
+        right: 0;
+        width: 100%;
+        position: absolute !important;
+    }
+    #introBlock > #robo2 {
+        position: relative !important;
+        margin-top: -100px !important;
+        right: 120px;
+    }
+    #titleBlock {
+        margin-left: 50% !important;
+    }
+ }
+@media (max-width: 375px) { 
+    #introBlock {
+        margin: 0 50px !important;
+        margin-top: 300px !important;
+        left: 0;
+        right: 0;
+        width: 100%;
+        position: absolute !important;
+    }
+    #introBlock > #robo2 {
+        position: relative !important;
+        margin-top: -100px !important;
+        right: 180px;
+    }
+    #titleBlock {
+        margin-left: 50% !important;
+    }
+ }
+@media (max-width: 325px) { 
+    #introBlock {
+        margin: 0 50px !important;
+        margin-top: 300px !important;
+        left: 0;
+        right: 0;
+        width: 100%;
+        position: absolute !important;
+    }
+    #introBlock > #robo2 {
+        position: relative !important;
+        margin-top: -100px !important;
+        right: 200px;
+    }
+    #titleBlock {
+        margin-left: 50% !important;
+    }
+ }
